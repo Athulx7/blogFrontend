@@ -1,0 +1,15 @@
+.toast-containere{
+    background: white;
+}
+
+
+
+    
+
+
+
+@media (max-width:768px){
+    .imgage{
+        display: none;
+    }
+}

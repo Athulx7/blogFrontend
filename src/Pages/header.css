@@ -1,0 +1,41 @@
+.headerlinks{
+    text-decoration: none;
+    color: white;
+}
+.headerlinks:hover{
+    text-decoration: underline;
+    transition: .5s;
+    opacity: .8;
+
+}
+.respoButton{
+    display: none;
+}
+.max800px{
+    width: 600px;
+    background-color: white;
+}
+
+@media  (max-width:800px) {
+    .respoButton{
+        display: flex;
+        margin-right: 50px;
+       
+    }
+    .logoutb{
+        display: none;
+    }
+    .contrnd{
+        display: none;
+    }
+          
+}
+
+@media  (max-width:540px) {
+    .respoButton{
+      
+        margin-left: 300px;
+    }
+
+
+}

@@ -1,0 +1,77 @@
+.dashlnks {
+    text-decoration: none;
+}
+
+.dashlnks:hover {
+    text-decoration: underline;
+    color: white;
+    opacity: .7;
+    transition: .5s;
+}
+
+.images {
+    margin-top: 115px;
+
+
+}
+
+.image1 {
+    border-radius: 20px;
+    width:60rem
+}
+.firstTExt{
+    font-size: 2.5rem;
+}
+.secondTxt{
+    font-size: 1.75rem;
+}
+
+@media  (max-width:800px) {
+    .image1{
+        width: 40rem;
+    }
+    .firstTExt{
+        font-size: 1.6rem ;
+
+    }
+    .secondTxt{
+        font-size: 1.4rem;
+    }
+    /* .button{
+        width: 110px;
+        height: 35px;
+        
+    } */
+
+    
+}
+
+@media  (max-width:600px) {
+    .image1{
+        width: 30rem;
+    }
+    .firstTExt{
+        font-size: 1.2rem ;
+
+    }
+    .secondTxt{
+        font-size: 1rem;
+    }
+   
+
+    
+}
+@media  (max-width:500px) {
+    .image1{
+        width: 25rem;
+    }
+    .firstTExt{
+        font-size: .9rem ;
+
+    }
+    .secondTxt{
+        font-size: .6rem;
+    }
+
+    
+}

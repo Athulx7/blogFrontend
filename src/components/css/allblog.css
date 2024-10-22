@@ -1,0 +1,12 @@
+.allblogmian{
+    margin-top: 5rem;
+}
+.blogheadlink{
+    text-decoration: none;
+    color: white;
+}
+.blogheadlink:hover{
+    text-decoration: underline;
+    color: #ffc107;
+    transition: 1s;
+}

@@ -1,1 +1,1 @@
-export const BASE_URL = "https://blogbackend-qsh9.onrender.com"
+export const BASE_URL = "http://localhost:4001"
